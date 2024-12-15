@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body > 
+    |<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color:rgb(187, 255, 255);
+    }
+    nav {
+        width: 100%;
+        padding: 15px 20px; 
+        text-align: center; 
+        background-color:rgb(94, 93, 93); 
+        position: fixed;
+    }
+    nav a {
+        text-decoration: none; 
+        color: white; 
+        font-size: 10px;
+        margin-right: 25px; 
+        padding: 8px 16px; 
+        display: inline-block; 
+        
+    }
+    section {
+        
+        background-color: rgb(187, 255, 255); 
+        padding: 20px 40px; 
+        border-radius: 8px; 
+        width: 100%; 
+       
+    } 
+    footer {
+        
+        background-color: rgb(94, 93, 93);  
+        padding: 20px 40px; 
+        border-radius: 8px; 
+        width: 100%; 
+        text-align: center; 
+        
+    } 
+    div { 
+        height: 50px;
+    } 
+    .img1  {
+        position: absolute;
+        top: 110px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 20%;
+        width: 20%;
+    }
+    .img2  {
+        position: absolute;
+        top: 340px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 20%;
+        width: 20%;
+    }
+    .img3  {
+        position: absolute;
+        top: 560px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 20%;
+        width: 20%;
+    }
+    .img4  {
+        position: absolute;
+        top: 750px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 13%;
+        width: 13%;
+    }
+    .img5  {
+        position: absolute;
+        top: 880px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 18%;
+        width: 18%;
+    }
+    .img6  {
+        position: absolute;
+        top: 1070px;
+        right: 20px; 
+        border-radius: 8px; 
+        height: 15%;
+        width: 15%;
+    }
+</style>
+
+    <nav>
+        
+            <a href="#section1">BALISE DE BASES</a>
+            <a href="#section2">BALISE DE FORMAT</a>
+            <a href="#section3">TABLEAUX</a>
+            <a href="#section4">LISTES</a>
+            <a href="#section5">FORMULAIRES</a>
+            <a href="#section6">MULTIMEDIA</a>  
+        
+        
+    </nav>
+    <div>
+    </div>
+    <section id="section1">
+        <h1>Explication des éléments HTML</h1>
+        <li> <strong>!DOCTYPE html</strong>: Définit la version du HTML (HTML5 dans ce cas).</li>
+        <li> <strong>html</strong>: Conteneur principal qui englobe tout le contenu de la page.</li>
+        <li> <strong>head</strong>: Contient les méta-informations sur le document (titre, encodage, liens vers les CSS, scripts, etc.).</li>
+        <li> <strong>title</strong>: Définit le titre de la page qui apparaît dans l'onglet du navigateur.</li>
+        <li> <strong>meta</strong>: Fournit des métadonnées comme la description de la page, le jeu de caractères, etc.</li>
+        <li> <strong>link</strong>: Lien vers des ressources externes comme des fichiers CSS.</li>
+        <li> <strong>script</strong>: Intègre ou lie des scripts JavaScript.</li>
+        <li> <strong>section</strong>: Section de la page.</li>
+        <li> <strong>div</strong>: division de bloc html.</li>
+        <img src="htmlimage2.jpg" alt="nigga" class="img1">
+
+        
+    </section><hr>
+    <section id="section2">
+        <h1>Balises de Format</h1>
+        <ul>
+            <li><strong>&lt;h1&gt; ; &gt;&gt;&gt; &lt;h6&gt;</strong>: Définit les titres, &lt;h1&gt; étant le plus important, &lt;h6&gt; le moins.</li>
+            <li><strong>&lt;p&gt;</strong>: Définit un paragraphe.</li>
+            <li><strong>&lt;br&gt;</strong>: Retour à la ligne.</li>
+            <li><strong>&lt;hr&gt;</strong>: Ligne horizontale.</li>
+            <li><strong>&lt;strong&gt;</strong>: Texte en gras.</li>
+            <li><strong>&lt;em&gt;</strong>:emphasized text </li>
+            <li><strong>&lt;b&gt;</strong>: Met le texte en gras.</li>
+            <li><strong>&lt;i&gt;</strong>: Met le texte en italique.</li>
+            <li><strong>&lt;u&gt;</strong>: ?</li>
+            <img src="format.png" alt="image de format" class="img2">
+        </ul>
+    </section><hr>
+    <section id="section3">
+        <h1>TABLEAUX</h1>
+        <ul>
+            <li><strong>&lt;table&gt;</strong>: Crée un tableau.</li>
+            <li><strong>&lt;tr&gt;</strong>: Définit une ligne dans le tableau.</li>
+            <li><strong>&lt;th&gt;</strong>: Définit une cellule d'en-tête.</li>
+            <li><strong>&lt;td&gt;</strong>: Définit une cellule dans une ligne.</li>
+            <li><strong>&lt;thead&gt;</strong>: Groupe les lignes d'en-tête d'un tableau.</li>
+            <li><strong>&lt;tbody&gt;</strong>: Groupe les lignes de contenu d'un tableau.</li>
+            <li><strong>&lt;tfoot&gt;</strong>: Groupe les lignes de pied de tableau.</li>
+        </ul>
+        <img src="table.png" alt="image de format" class="img3">
+           </section><hr>
+           <section id="section4">
+            <h1>Listes</h1>
+            <ul>
+                <li><strong>&lt;ul&gt;</strong>: Liste à puces (non ordonnée).</li>
+                <li><strong>&lt;ol&gt;</strong>: Liste ordonnée (numérotée).</li>
+                <li><strong>&lt;li&gt;</strong>: Élément d'une liste.</li>
+            </ul>
+            <img src="liste.jpg" alt="image de format" class="img4">
+            
+           </section><hr>
+           <section id="section5">
+            <h1>Formulaires</h1>
+            <ul>
+                <li><strong>&lt;form&gt;</strong>: Formulaire.</li>
+                <li><strong>&lt;input&gt;</strong>: Champ d'entrée de formulaire (texte, mot de passe, email, etc.).</li>
+                <li><strong>&lt;textarea&gt;</strong>: Zone de saisie multiligne.</li>
+                <li><strong>&lt;button&gt;</strong>: Bouton d'envoi ou autre action.</li>
+                <li><strong>&lt;select&gt;</strong>: Liste déroulante.</li>
+                <li><strong>&lt;option&gt;</strong>: Élément d'une liste déroulante.</li>
+                <li><strong>&lt;label&gt;</strong>: Libellé d'un champ.</li>
+            </ul>
+            <img src="formulaire.png" alt="nigga" class="img5">
+           </section><hr>
+           <section id="section6">
+            <h1>Balise de multimedia</h1>
+            <ul>
+                <li><strong>&lt;audio&gt;</strong> : Permet d’intégrer un contenu audio (musique, effets sonores, etc.).</li>
+                <li><strong>&lt;video&gt;</strong> : Permet d’intégrer un contenu vidéo (films, tutoriels, etc.).</li>
+                <li><strong>&lt;iframe&gt;</strong> : Permet d’intégrer un contenu externe (page web, carte, vidéo, etc.).</li>
+                <li><strong>&lt;source&gt;</strong> : Spécifie la source d’un fichier multimédia pour les balises &lt;audio&gt; ou &lt;video&gt;.</li>
+            </ul>
+            <img src="images.jpg" alt="nigga" class="img6">
+           </section>
+           <hr>
+
+</body>
+<footer>
+            <p> Mohamed Riyad Khomsi</p>
+            <p> Khomsiryad@gmail.com</p>
+            <p> DD102 </p>
+            <p> Num : 16</p>
+</footer>
+</html>
